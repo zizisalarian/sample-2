@@ -1,0 +1,24 @@
+/* AF 8.0 */
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('IRANSansWeb(FaNum).eot');
+	src: url('IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('IRANSansWeb(FaNum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('IRANSansWeb(FaNum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+body {
+    font-family: "IRANSans", Arial, sans-serif;
+    font-size: 14px;
+}
+
+
+.sticky-active .main-logo{
+    width: 100px;
+    height: auto;
+    transition:all .5s;
+}
